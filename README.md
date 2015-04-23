@@ -16,23 +16,17 @@ tutorial.
 If you are on linux and don't want to install Canopy then install the following
 from your package manager.
 
->>>bash
-$ sudo apt-get install python-numpy python-scipy python-pandas python-pip ipython ipython-qtconsole ipython-notebook
-<<<
+>>> $ sudo apt-get install python-numpy python-scipy python-pandas python-pip ipython ipython-qtconsole ipython-notebook
 
 Then make sure to update ipython to the latest version.
 
->>>bash
-$ pip install ipython[all] --upgrade --user
-<<<
+>>> $ pip install ipython[all] --upgrade --user
 
 ## Running IPython notebook
 
 The easiest way to get IPython notebook running is to open a command prompt or terminal and type:
 
->>>bash
-$ ipython notebook
-<<<
+>>> $ ipython notebook
 
 This will start a web server running the IPython notebook. You can then navigate your directory structure through the notebook. When done simply close the web browser and type Ctrl-C in the command prompt/terminal to stop the web server.
 
